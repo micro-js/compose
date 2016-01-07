@@ -33,10 +33,10 @@ test('should compose multiple functions', function (t) {
   t.end()
 })
 
- function plus1 (x) {
-   return x + 1
- }
+function plus1 (x) {
+  return x + 1
+}
 
- function times2 (x) {
-   return x * 2
- }
+function times2 (x) {
+  return x * 2
+}
