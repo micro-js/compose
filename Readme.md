@@ -39,9 +39,9 @@ function times2 (x) {
 
 ### compose(...fns)
 
-- `fns` - argument list of functions to compose from right to left.
+- `fns` - List of functions to compose
 
-**Returns:** A new function which when called with arguments, pipes those through all `fns`
+**Returns:** A new function which when called with arguments, pipes those through `fns` from right-to-left
 
 ## License
 

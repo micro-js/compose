@@ -21,7 +21,6 @@ test('should compose two functions', function (t) {
 })
 
 test('should compose from right to left', function (t) {
-  var times2plus1 = compose(plus1, times2)
   t.notEqual(times2plus1(3), 8)
   t.equal(times2plus1(3), 7)
   t.end()
