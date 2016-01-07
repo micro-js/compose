@@ -1,0 +1,18 @@
+{
+  "name": "@f/compose",
+  "description": "Right-to-left function composition for two or more functions",
+  "repository": "git://github.com/micro-js/compose.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/reduce": "^0.1.0",
+    "@f/slice": "^1.1.1"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
