@@ -32,6 +32,11 @@ test('should compose multiple functions', function (t) {
   t.end()
 })
 
+test('empty pipeline should return identity function', function (t) {
+  t.equal(compose()(1), 1)
+  t.end()
+})
+
 function plus1 (x) {
   return x + 1
 }
