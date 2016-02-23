@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "@f/identity": "^1.1.1",
-    "@f/reduce-array": "^0.2.1",
-    "@f/slice": "^1.1.1"
+    "@f/reduce-array": "^0.2.1"
   },
   "devDependencies": {
     "tape": "^4.2.2"

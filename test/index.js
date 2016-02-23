@@ -37,6 +37,10 @@ test('empty pipeline should return identity function', function (t) {
   t.end()
 })
 
+/**
+ * Helpers
+ */
+
 function plus1 (x) {
   return x + 1
 }
