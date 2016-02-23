@@ -2,7 +2,7 @@
   "name": "@f/compose",
   "description": "Right-to-left function composition for two or more functions",
   "repository": "git://github.com/micro-js/compose.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
